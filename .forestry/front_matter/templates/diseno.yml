@@ -1,0 +1,22 @@
+---
+label: Diseño
+hide_body: false
+fields:
+- type: text
+  name: author
+  label: author
+- type: text
+  name: autor-avatar
+  label: autor-avatar
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: featuredImage
+  label: featuredImage
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: title
+  label: title
