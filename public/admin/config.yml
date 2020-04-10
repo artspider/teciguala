@@ -1,12 +1,13 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: artspider/blogiti.github.io
   branch: master # Branch to update (optional; defaults to master)
 media_folder: static/images
 public_folder: /images
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content'
+  - name: 'diseño'
+    label: 'Diseño'
+    folder: 'content/diseño'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
