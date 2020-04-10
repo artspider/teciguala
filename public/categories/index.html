@@ -1,4 +1,24 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!DOCTYPE html>
+<html lang="es-ES"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>
+         Categories |   Blog - TecIguala
+    </title>
+    <meta name="description" content="Blog de Sistemas y Computación. TecNM Campus Iguala ">
+    <link rel="canonical" href="/categories/" />
+    <link rel="stylesheet" href="/css/bulma/css/bulma.css">
+    <link rel="stylesheet" href="/css/style-main.css">
+    <link rel="stylesheet" href="/css/style-responsive.css" media="screen and (max-width: 1024px)"> <meta property="og:title" content="Categories" />
+<meta property="og:description" content="Blog de Sistemas y Computación. TecNM Campus Iguala" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/categories/" />
+
+ <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Categories"/>
+<meta name="twitter:description" content="Blog de Sistemas y Computación. TecNM Campus Iguala"/>
+   
+</head><body><nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="columns is-gapless" style="flex-direction: column; width:100%">
             <div class="column">
@@ -31,14 +51,31 @@
             <div class="column is-narrow">
                 <div id="navbarBasicExample" class="navbar-menu ">
                     <div class="navbar-start ">
-                        {{ $currentPage := . }} {{ range .Site.Menus.main }}
-                        <!-- <a href="{{ .URL }} " class="navbar-item "> {{ .Title }}</a> -->
+                         
+                        
 
-                        <a class="navbar-item{{if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main " .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a> {{ end }}
+                        <a class="navbar-item" href="/programacion/" title="">Programacion</a> 
+                        
+
+                        <a class="navbar-item" href="/dise%C3%B1o/" title="">Diseño</a> 
 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</nav>
+</nav><main>
+    </main><script>
+        (function() {
+            var burger = document.querySelector('.burger');
+            var nav = document.querySelector('#' + burger.dataset.target);
+
+            burger.addEventListener('click', function() {
+                burger.classList.toggle('is-active');
+                nav.classList.toggle('is-active');
+            });
+        })();
+    </script>
+</body>
+
+</html>

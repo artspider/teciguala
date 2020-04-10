@@ -1,7 +1,6 @@
 ---
 title: Stay Creative, Stay Inspired (April 2020 Wallpapers Edition)
 date: 2020-03-31
-draft: true
 featuredImage: "/images/creative.jpg"
 author: "Maggy Tom"
 ---
