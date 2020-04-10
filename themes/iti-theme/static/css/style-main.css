@@ -277,3 +277,7 @@ h1.title.is-1 {
 .blog-single-content p {
     margin-bottom: 1.5em;
 }
+
+.single-blog {
+    max-width: 720px;
+}
