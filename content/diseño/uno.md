@@ -1,8 +1,9 @@
 ---
-title: "Uno"
-date: 2020-04-09T13:16:35-05:00
-featuredImage: "images/article-img.png"
-author: "A. Rod"
+title: Publicar en Hugo con MD
+date: 2020-04-10T05:08:35.000Z
+featuredImage: images/article-img.png
+author: A. Rod
+description: Como hacer una publicación en hugo con Mark Down
 ---
 
 ![Example image](/images/article-img.png)
