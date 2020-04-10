@@ -1,7 +1,9 @@
 +++
 author = "A. Rod"
-date = 2020-04-10T00:00:00Z
+autor-avatar = ""
+date = 2020-04-10T10:00:00Z
 featuredImage = "/uploads/laptop-black.jpg"
+tags = []
 title = "The right way to learn front-end web development"
 
 +++
