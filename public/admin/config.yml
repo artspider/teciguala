@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: artspider/blogiti.github.io
+  repo: artspider/teciguala
   branch: master # Branch to update (optional; defaults to master)
 media_folder: static/images
 public_folder: /images
