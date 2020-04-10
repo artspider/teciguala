@@ -1,7 +1,6 @@
 +++
 author = "A. Rod"
 date = 2020-04-10T00:00:00Z
-draft = true
 featuredImage = "/uploads/laptop-black.jpg"
 title = "The right way to learn front-end web development"
 
