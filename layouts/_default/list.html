@@ -1,1 +1,7 @@
- {{ define "content" }} {{ end }}
+{{ define "main" }} 
+    {{ .Title }}
+    <h2>Post</h2>
+    {{ range where .Site.Pages "Type" .Section }}
+        <a href="{{ .Permalink }}" class="navbar-item">{{ .Title }}</a> 
+    {{ end }}
+{{ end }}

@@ -229,3 +229,51 @@ article .article-date .date-pgh p {
     font-size: .7em;
     color: #9b9b9b;
 }
+
+figure.img-post {
+    width: 100%;
+    max-width: 1300px;
+}
+
+figure.img-post img {
+    width: 100%;
+    margin: 10px;
+}
+
+h1.title.is-1 {
+    margin-bottom: 10px;
+}
+
+.author-box {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.author-box p.author-box {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1em;
+    color: #9b9b9b;
+    margin: 0px 10px;
+}
+
+.author-box p.date-box {
+    font-size: 1em;
+    color: #333;
+    font-family: Roboto;
+}
+
+.blog-single-content {
+    font-family: Inconsolata;
+    font-size: 1.4em;
+    color: #444;
+    line-height: 1.6em;
+    margin-top: 1em;
+    padding-top: 1.5em;
+    border-top: solid #9b9b9b;
+}
+
+.blog-single-content p {
+    margin-bottom: 1.5em;
+}
