@@ -4,10 +4,11 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: author
-  label: author
+  label: Autor
+  default: TecNM
 - name: author-avatar
   type: file
   config:
@@ -18,6 +19,11 @@ fields:
 - type: datetime
   name: date
   label: date
+  description: La fecha que se escribió la entrada
+  config:
+    date_format: YYYY-MM-DD
+    export_format: YYYY-MM-DD h:mm
+  default: now
 - type: file
   name: featuredImage
   label: featuredImage
