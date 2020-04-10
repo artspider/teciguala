@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
+
+<body>
+    {{- partial "nav.html" . -}}
+    {{- partial "header.html" . -}}
+    <main>
+        {{- block "main" . }}{{- end }}
+    </main>
+    
+    {{- partial "footer.html" . -}}
+
+    <script>
+        (function() {
+            var burger = document.querySelector('.burger');
+            var nav = document.querySelector('#' + burger.dataset.target);
+
+            burger.addEventListener('click', function() {
+                burger.classList.toggle('is-active');
+                nav.classList.toggle('is-active');
+            });
+        })();
+    </script>
+</body>
+
+</html>

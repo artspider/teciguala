@@ -1,0 +1,173 @@
+{{ define "main" }}
+<div class="main-container">
+    <aside>
+        <article class="aside-article">
+            <div class="aside-img">
+                <img src="/images/houseParty.png" alt="">
+            </div>
+            <div class="aside-phg">
+                <p class="aside-phg-intro">
+                    Houseparty ofrece $1.000.000 por encontrar a quien inició el rumor de que había sido hackeada
+                </p>
+            </div>
+            <div class="aside-author">
+                <p class="aside-author-author">Matías S. Zavia</p>
+                <p class="aside-author-date">2 hours ago</p>
+            </div>
+        </article>
+    </aside>
+    <section>
+        {{ range first 5 .Site.RegularPages }}
+        <article>
+            <div class="article-date">
+                <figure class="image">
+                    <img src="/images/article-watch.png" alt="">
+                </figure>
+                <div class="date-pgh">
+                    <p>{{ .Date.Format "01 Jan 2006" }}</p>
+                </div>
+                <figure class="image-save">
+                    <img src="/images/article-save.png" alt="">
+                </figure>
+            </div>
+            <div class="article-img">
+                <figure>
+                    <img src="{{ index .Params "featuredImage" }}" alt="">
+                </figure>
+            </div>
+            <div class="article-phg">
+                <div class="article-phg-header">
+                    <h2>{{ .Section }}</h2>
+                </div>
+                <div class="article-phg-intro">
+                    <p> <a href="{{ .Permalink }}">{{.Title}}</a> </p>
+                </div>
+                <div class="article-phg-author">
+                    <img src="/images/avatar.png" alt="" class="avatar">
+                    <p class="author">{{index .Params "Author"}}   | </p>
+                    <img src="/images/comentario.png" alt="" class="read">
+                    <p class="times-read">2</p>
+                </div>
+            </div>
+        </article>
+        <div class="divider">
+            <div class="div-date"></div>
+            <div class="div-img"></div>
+            <div class="div-content"></div>
+        </div>
+        {{ end }}
+        <!-- <article>
+            <div class="article-date">
+                <figure class="image">
+                    <img src="/images/article-watch.png" alt="">
+                </figure>
+                <div class="date-pgh">
+                    <p>6:50 A.M.</p>
+                </div>
+                <figure class="image-save">
+                    <img src="/images/article-save.png" alt="">
+                </figure>
+            </div>
+            <div class="article-img">
+                <figure>
+                    <img src="/images/article-img.png" alt="">
+                </figure>
+            </div>
+            <div class="article-phg">
+                <div class="article-phg-header">
+                    <h2>Historias</h2>
+                </div>
+                <div class="article-phg-intro">
+                    <p>Bill Gates detalla un plan de tres puntos para ganar la batalla contra Covid</p>
+                </div>
+                <div class="article-phg-author">
+                    <img src="/images/avatar.png" alt="" class="avatar">
+                    <p class="author">Miguel Jorge | </p>
+                    <img src="/images/comentario.png" alt="" class="read">
+                    <p class="times-read">2</p>
+                </div>
+            </div>
+        </article>
+        <div class="divider">
+            <div class="div-date"></div>
+            <div class="div-img"></div>
+            <div class="div-content"></div>
+        </div>
+        <article>
+            <div class="article-date">
+                <figure class="image">
+                    <img src="/images/article-watch.png" alt="">
+                </figure>
+                <div class="date-pgh">
+                    <p>6:50 A.M.</p>
+                </div>
+                <figure class="image-save">
+                    <img src="/images/article-save.png" alt="">
+                </figure>
+            </div>
+            <div class="article-img">
+                <figure>
+                    <img src="/images/article-img.png" alt="">
+                </figure>
+            </div>
+            <div class="article-phg">
+                <div class="article-phg-header">
+                    <h2>Historias</h2>
+                </div>
+                <div class="article-phg-intro">
+                    <p>Bill Gates detalla un plan de tres puntos para ganar la batalla contra Covid</p>
+                </div>
+                <div class="article-phg-author">
+                    <img src="/images/avatar.png" alt="" class="avatar">
+                    <p class="author">Miguel Jorge | </p>
+                    <img src="/images/comentario.png" alt="" class="read">
+                    <p class="times-read">2</p>
+                </div>
+            </div>
+        </article>
+        <div class="divider">
+            <div class="div-date"></div>
+            <div class="div-img"></div>
+            <div class="div-content"></div>
+        </div>
+        <article>
+            <div class="article-date">
+                <figure class="image">
+                    <img src="/images/article-watch.png" alt="">
+                </figure>
+                <div class="date-pgh">
+                    <p>6:50 A.M.</p>
+                </div>
+                <figure class="image-save">
+                    <img src="/images/article-save.png" alt="">
+                </figure>
+            </div>
+            <div class="article-img">
+                <figure>
+                    <img src="/images/article-img.png" alt="">
+                </figure>
+            </div>
+            <div class="article-phg">
+                <div class="article-phg-header">
+                    <h2>Historias</h2>
+                </div>
+                <div class="article-phg-intro">
+                    <p>Bill Gates detalla un plan de tres puntos para ganar la batalla contra Covid</p>
+                </div>
+                <div class="article-phg-author">
+                    <img src="/images/avatar.png" alt="" class="avatar">
+                    <p class="author">Miguel Jorge | </p>
+                    <img src="/images/comentario.png" alt="" class="read">
+                    <p class="times-read">2</p>
+                </div>
+            </div>
+        </article>
+        <div class="divider">
+            <div class="div-date"></div>
+            <div class="div-img"></div>
+            <div class="div-content"></div>
+        </div> -->
+    </section>
+
+</div>
+{{ end }}

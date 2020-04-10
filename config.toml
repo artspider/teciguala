@@ -1,0 +1,21 @@
+baseURL = "/"
+languageCode = "es-ES"
+title = "Blog - TecIguala"
+theme = "iti-theme"
+
+[menu]
+    [[menu.main]]
+    identifier = "programacion"
+    name = "Programacion"
+    url = "/programacion/"
+    weight = 1
+
+    [[menu.main]]
+    identifier = "diseño"
+    name = "Diseño"
+    url = "/diseño/"
+    weight = 2
+
+[params]
+    description = "Blog de Sistemas y Computación. TecNM Campus Iguala"
+    googleAnalytics = "UA-123-45"
