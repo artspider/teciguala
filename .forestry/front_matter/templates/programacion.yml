@@ -37,7 +37,7 @@ fields:
   label: Autor
   description: Nombre corto y apellido del autor (p.e. J. Pérez)
   default: TecNM
-- name: autor-avatar
+- name: author-avatar
   type: file
   config:
     maxSize: 250
@@ -51,3 +51,4 @@ fields:
   description: Secciones o tópicos generales
 pages:
 - content/programacion/the-right-way-to-learn-front-end-web-development.md
+- content/programacion/visual-design-language-the-building-blocks-of-design.md
