@@ -5,7 +5,7 @@
     </figure>
     <h1 class="title is-1">{{ .Title }}</h1>
     <div class="author-box">
-        <img src="{{ index .Params "author-avatar" }}" alt="">
+        <img class="avatar-box" src="{{ index .Params "author-avatar" }}" alt="">
         <p class="author-box">{{ index .Params "author" }}  |  </p>
         <p class="date-box">{{ .Params.date.Format  "Jan 01 2006"}}</p>
     </div>

@@ -281,3 +281,9 @@ h1.title.is-1 {
 .single-blog {
     max-width: 720px;
 }
+
+.author-box .avatar-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
