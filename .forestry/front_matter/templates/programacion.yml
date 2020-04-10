@@ -37,3 +37,5 @@ fields:
   label: Autor
   description: Nombre corto y apellido del autor (p.e. J. Pérez)
   default: TecNM
+pages:
+- content/programacion/the-right-way-to-learn-front-end-web-development.md
