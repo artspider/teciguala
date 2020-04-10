@@ -1,7 +1,8 @@
 +++
 author = "A. Pope"
+author-avatar = "/uploads/author-avatar.png"
 autor-avatar = ""
-date = ""
+date = 2020-04-10T10:00:00Z
 featuredImage = "/uploads/Flexbox.png"
 tags = ["Diseño", "Web", "FlexBox", "CSS"]
 title = "Flexbox y el diseño responsive unidireccional"
