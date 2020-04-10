@@ -37,5 +37,17 @@ fields:
   label: Autor
   description: Nombre corto y apellido del autor (p.e. J. Pérez)
   default: TecNM
+- name: autor-avatar
+  type: file
+  config:
+    maxSize: 250
+  label: Autor-avatar
+  description: Una foto pequeña que identifique al autor
+  default: "/uploads/author-avatar.png"
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Secciones o tópicos generales
 pages:
 - content/programacion/the-right-way-to-learn-front-end-web-development.md
