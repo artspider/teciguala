@@ -1,4 +1,39 @@
 ---
 label: Programacion
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 15
+    max: 60
+  label: Titulo
+  description: El título del ítem
+- name: date
+  type: datetime
+  label: Fecha de creación
+  description: Fecha en la que se escribio la entrada
+  config:
+    required: true
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+  default: now
+- name: featuredImage
+  type: file
+  config:
+    maxSize: 250
+  label: Image de muestra
+  description: Imagen pequeña en el listado de entradas
+  default: "/uploads/creative.jpg"
+- name: author
+  type: text
+  config:
+    required: true
+    min: 5
+    max: 12
+  label: Autor
+  description: Nombre corto y apellido del autor (p.e. J. Pérez)
+  default: TecNM
