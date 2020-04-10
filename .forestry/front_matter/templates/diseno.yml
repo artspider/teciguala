@@ -8,9 +8,13 @@ fields:
 - type: text
   name: author
   label: author
-- type: text
-  name: autor-avatar
-  label: autor-avatar
+- name: author-avatar
+  type: file
+  config:
+    maxSize: 250
+  label: Autor-avatar
+  description: Una foto pequeña que identifique al autor
+  default: "/uploads/author-avatar.png"
 - type: datetime
   name: date
   label: date
