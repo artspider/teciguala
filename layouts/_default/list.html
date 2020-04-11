@@ -1,7 +1,32 @@
-{{ define "main" }} 
-    {{ .Title }}
-    <h2>Post</h2>
-    {{ range where .Site.Pages "Type" .Section }}
-        <a href="{{ .Permalink }}" class="navbar-item">{{ .Title }}</a> 
-    {{ end }}
+{{ define "main" }}
+<div class="main-container">
+    <div class="categoria title is-1">
+        <p>Categoria: {{ .Title }}</p>
+    </div>
+
+    <section class="section-categoria">
+        {{ range where .Site.RegularPages "Type" .Section }}
+        <article class="article-categoria">
+            <div class="article-img-categoria">
+                <figure>
+                    <img src="{{ index .Params "featuredImage" }}" alt="">
+                </figure>
+            </div>
+            <div class="article-phg-intro">
+                <p><a href="{{ .Permalink }}" >{{ .Title }}</a></p>
+            </div>
+            <div class="author-box">                    
+                    <img class="avatar-box" src="{{ index .Params "author-avatar" }}" alt="">
+                    <p class="author-box">{{index .Params "Author"}}   | </p>
+                    <div class="date-box">
+                    <p>{{ .Date.Format "01 Jan 2006" }}</p>
+                    </div>
+                </div>
+        </article>
+        {{ end }}
+    </section>
+
+
+</div>
+
 {{ end }}
