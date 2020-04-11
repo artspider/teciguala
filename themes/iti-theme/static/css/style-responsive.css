@@ -100,6 +100,12 @@ section {
         position: relative;
         left: 345px;
     }
+    footer {
+        height: 100%;
+    }
+    .creator {
+        padding-bottom: 20px;
+    }
 }
 
 

@@ -3,6 +3,7 @@ title: Covid and Bill
 date: 2020-04-07T22:00:47-05:00
 featuredImage: "/images/corona-china.png"
 author: "A. Rod"
+author-avatar: "/uploads/author-avatar.png"
 ---
 ## Situación al 9 de abril de 2020 (02:00pm hora del este)
 

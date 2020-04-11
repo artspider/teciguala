@@ -1,6 +1,6 @@
 +++
 author = "A. Rod"
-autor-avatar = ""
+author-avatar = "/uploads/author-avatar.png"
 date = 2020-04-10T10:00:00Z
 featuredImage = "/uploads/laptop-black.jpg"
 tags = []

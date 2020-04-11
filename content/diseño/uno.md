@@ -3,6 +3,7 @@ title: Publicar en Hugo con MD
 date: 2020-04-10T05:08:35.000Z
 featuredImage: images/article-img.png
 author: A. Rod
+author-avatar: "/uploads/author-avatar.png"
 description: Como hacer una publicación en hugo con Mark Down
 ---
 

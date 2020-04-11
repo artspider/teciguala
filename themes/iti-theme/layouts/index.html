@@ -43,8 +43,11 @@
                     <p> <a href="{{ .Permalink }}">{{.Title}}</a> </p>
                 </div>
                 <div class="article-phg-author">
-                    <img src="images/avatar.png" alt="" class="avatar">
-                    <p class="author">{{index .Params "Author"}}   | </p>
+                    <!-- <img src="/images/avatar.png" alt="" class="avatar"> -->
+                    <div class="author-box"> 
+                    <img class="avatar-box" src="{{ index .Params "author-avatar" }}" alt="">
+                    </div>
+                    <p class="author">{{index .Params "Author"}} | </p>
                     <img src="images/comentario.png" alt="" class="read">
                     <p class="times-read">2</p>
                 </div>

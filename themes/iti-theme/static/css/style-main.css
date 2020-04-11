@@ -183,6 +183,14 @@ article .article-date .date-pgh p {
     border-bottom: solid 1px black;
 }
 
+.divider:last-child .div-img {
+    border-bottom: none;
+}
+
+.divider:last-child .div-content {
+    border-bottom: none;
+}
+
 .aside-article {
     width: 92.44%;
     height: auto;
@@ -374,4 +382,69 @@ blockquote:after {
 .article-img-categoria figure img {
     width: 100%;
     height: 100%;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+}
+
+.footer-brand {
+    font-family: Inconsolata-Bold;
+    color: aliceblue;
+    font-size: 1.5em;
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer .creator {
+    font-family: Roboto;
+    font-size: .85em;
+    color: #9b9b9b;
+    text-align: center;
+    letter-spacing: .3em;
+}
+
+.social-media {
+    width: 120px;
+    margin: 20px auto;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 70%;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.footer-menu {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-menu a {
+    color: #9b9b9b;
+    margin: 10px 20px;
 }
