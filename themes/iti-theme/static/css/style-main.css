@@ -675,6 +675,9 @@ blockquote:after {
 }
 
 @media screen and (min-width: 1024px) {
+    .main-container.single-blog {
+        max-width: 900px;
+    }
     .navbar-menu {
         width: 100%;
         display: flex;
@@ -745,6 +748,12 @@ blockquote:after {
         flex-direction: column;
         margin: 20px auto 20px auto;
         border: none;
+    }
+    figure.img-post {
+        margin-bottom: 20px;
+    }
+    .blog-single-content {
+        font-size: 1.3em;
     }
     .divider {
         display: flex;
