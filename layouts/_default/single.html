@@ -3,13 +3,13 @@
     <figure class="img-post">
         <img src="{{ index .Params "featuredImage" }}" alt="">
     </figure>
-    <h1 class="title is-1">{{ .Title }}</h1>
-    <div class="author-box">
+    <h1 class="title is-1 is-roboto">{{ .Title }}</h1>
+    <div class="author-box is-roboto">
         <img class="avatar-box" src="{{ index .Params "author-avatar" }}" alt="">
-        <p class="author-box">{{ index .Params "author" }}  |  </p>
+        <p class="author-box ">{{ index .Params "author" }}  |  </p>
         <p class="date-box">{{ .Params.date.Format  "Jan 01 2006"}}</p>
     </div>
-    <div class="blog-single-content">
+    <div class="blog-single-content is-inconsolata">
         {{ .Content }}
     </div>
    

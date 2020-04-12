@@ -18,6 +18,37 @@
     </aside>
     <section>
         {{ range first 5 .Site.RegularPages }}
+
+        <div class="article-mobile">
+                    <div class="article-date">
+                        <div class="article-phg-header">
+                            <h2>{{ .Section }}</h2>
+                        </div>
+                        <div class="date-pgh">
+                            <p>{{ .Date.Format "01 Jan 2006" }}</p>
+                        </div>
+                        <figure class="image-save">
+                            <img src="images/article-save.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="article-img">
+                        <figure>
+                            <img src="{{ index .Params "featuredImage" }}" alt="">
+                        </figure>
+                    </div>
+                    <div class="article-phg">
+                        <div class="article-phg-intro">
+                            <p> <a href="{{ .Permalink }}">{{.Title}}</a> </p>
+                        </div>
+                        <div class="article-phg-author">
+                            <img src="{{ index .Params "author-avatar" }}" alt="" class="avatar">
+                            <p class="author">{{index .Params "Author"}} <span class="barra-div">|</span> </p>
+                            <img src="images/comentario.png" alt="" class="read">
+                            <p class="times-read">2</p>
+                        </div>
+                    </div>
+                </div>
+
         <article>
             <div class="article-date">
                 <figure class="image">
