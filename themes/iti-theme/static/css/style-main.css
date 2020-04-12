@@ -769,6 +769,12 @@ blockquote:after {
         width: 64.37%;
         border-bottom: solid 1px black;
     }
+    .divider:last-child .div-img {
+        border-bottom: none;
+    }
+    .divider:last-child .div-content {
+        border-bottom: none;
+    }
 }
 
 .image {
