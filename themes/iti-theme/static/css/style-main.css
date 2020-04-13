@@ -430,8 +430,6 @@ article .article-phg {
     font-family: Roboto;
 }
 
-.article-phg .article-phg-header {}
-
 .article-phg .article-phg-intro {
     width: 100%;
     margin: 3px 0;
@@ -452,10 +450,6 @@ article .article-phg {
 .article-date .image {
     display: none;
 }
-
-.date-pgh {}
-
-.article-date .image-save {}
 
 .article-phg-header h2 {
     font-family: Poppins-normal;
