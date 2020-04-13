@@ -1,21 +1,20 @@
 {{ define "main" }}
 <div class="main-container single-blog" style="display: block;">
     <figure class="img-post">
-        <img src="{{ index .Params "featuredImage" }}" alt="">
+        <img src="{{ index .Params " featuredImage " }}" alt="">
     </figure>
     <h1 class="title is-1 is-roboto">{{ .Title }}</h1>
     <div class="author-box is-roboto">
-        <img class="avatar-box" src="{{ index .Params "author-avatar" }}" alt="">
+        <img class="avatar-box" src="{{ index .Params " author-avatar " }}" alt="">
         <p class="author-box ">{{ index .Params "author" }} | </p>
         <p class="date-box">{{ .Params.date.Format "Jan 01 2006"}}</p>
         <div class="tags">
             {{ range .Params.tags }}
-                <a class="tag is-primary is-radiusless" href="/tags/{{ . | urlize}}">{{ . }}</a>
-            {{ end }}
+            <a class="tag is-primary is-radiusless" href="/tags/{{ . | urlize}}">{{ . }}</a> {{ end }}
         </div>
-        
+
     </div>
-    <div class="blog-single-content is-inconsolata">
+    <div class="blog-single-content is-roboto">
         {{ .Content }}
     </div>
 

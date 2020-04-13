@@ -23,6 +23,11 @@
 
 @font-face {
     font-family: 'Inconsolata';
+    src: url('/fonts/Inconsolata-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Inconsolata-Bold';
     src: url('/fonts/Inconsolata-Bold.ttf');
 }
 
@@ -217,6 +222,14 @@ header {
 
 .container>header {
     justify-content: space-between;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+em {
+    font-style: italic;
 }
 
 .brand {
@@ -548,6 +561,8 @@ figure.img-post img {
 
 .blog-single-content a {
     display: inline;
+    color: #1d325f;
+    font-weight: bold;
 }
 
 .section-categoria {
