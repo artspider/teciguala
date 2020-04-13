@@ -10,7 +10,7 @@ title = "Visual Design Language: The Building Blocks Of Design"
 **_Quick Summary ->_** _A robust visual design language is the cornerstone of good design. Here’s how the team at Fantasy approached designing a mobile OS for Huawei._
 
 > _“Design is not just what it looks like and feels like. Design is how it works.”  
->   
+>
 > — Steve Jobs_
 
 Like written words are to language, fonts, colors, shapes and icons are to visual design. An effective visual design language not only acts as a communication framework for all stakeholders on a product development team, but unites a brand and its customers to ensure that a company’s brand identity matches a customer’s brand perception.
