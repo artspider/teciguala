@@ -627,6 +627,14 @@ blockquote:after {
     text-align: center;
 }
 
+ol,
+ul {
+    list-style-type: decimal;
+    box-sizing: border-box;
+    width: 90%;
+    padding-left: 50px;
+}
+
 @media screen and (min-width: 500px) {
     .article-mobile {
         display: none;
