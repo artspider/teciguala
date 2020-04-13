@@ -2,7 +2,6 @@
 author = "A. Rod"
 author-avatar = "/uploads/arod.jpg"
 date = 2020-04-13T10:05:00Z
-draft = true
 featuredImage = "/uploads/web-design-article.jpg"
 tags = ["Web", "Diseño"]
 title = "¿Qué es el diseño web?"
