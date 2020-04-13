@@ -7,7 +7,7 @@ tags = []
 title = "The right way to learn front-end web development"
 
 +++
-# The right way to learn front-end web development
+## The right way to learn front-end web development
 
 Web Development is a field that is probably not going anywhere in the next 5-10-15 years. This strong assumption comes with the facts about how quick web is moving, the improvements in hardware people have with them (fast and smart mobile phones), and cloud-based applications which allows to do the heavy lifting in the cloud and use the browser as a bridge to connect powerful backend servers with less capable and powerful frontends. This makes it the best bet to learn web development right now if you're looking to learn something.
 
