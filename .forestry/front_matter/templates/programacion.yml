@@ -50,5 +50,6 @@ fields:
   label: Tags
   description: Secciones o tópicos generales
 pages:
+- content/programacion/esto-es-una-prueba.md
 - content/programacion/the-right-way-to-learn-front-end-web-development.md
 - content/programacion/visual-design-language-the-building-blocks-of-design.md
