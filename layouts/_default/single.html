@@ -6,13 +6,19 @@
     <h1 class="title is-1 is-roboto">{{ .Title }}</h1>
     <div class="author-box is-roboto">
         <img class="avatar-box" src="{{ index .Params "author-avatar" }}" alt="">
-        <p class="author-box ">{{ index .Params "author" }}  |  </p>
-        <p class="date-box">{{ .Params.date.Format  "Jan 01 2006"}}</p>
+        <p class="author-box ">{{ index .Params "author" }} | </p>
+        <p class="date-box">{{ .Params.date.Format "Jan 01 2006"}}</p>
+        <div class="tags">
+            {{ range .Params.tags }}
+                <a class="tag is-primary is-radiusless" href="/tags/{{ . | urlize}}">{{ . }}</a>
+            {{ end }}
+        </div>
+        
     </div>
     <div class="blog-single-content is-inconsolata">
         {{ .Content }}
     </div>
-   
-    
+
+
 </div>
 {{ end }}

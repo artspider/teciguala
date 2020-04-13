@@ -1,11 +1,11 @@
 {{ define "main" }}
 <div class="main-container">
     <div class="categoria title is-roboto">
-        <p>Categoria: {{ .Title }}</p>
+        <p>{{ .Title }}</p>
     </div>
 
-    <section class="section-categoria">
-        {{ range where .Site.RegularPages "Type" .Section }}
+    <div class="section-categoria">
+        {{ range .Data.Pages }}
         <article class="article-categoria">
             <div class="article-img-categoria">
                 <figure>
@@ -24,9 +24,11 @@
             </div>
         </article>
         {{ end }}
-    </section>
+    </div>
 
+    <div>
+        <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
 
-</div>
-
-{{ end }}
+    </div>
+    </main>
+    {{ end }}
