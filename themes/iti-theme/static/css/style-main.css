@@ -546,6 +546,10 @@ figure.img-post img {
     margin-bottom: 1.5em;
 }
 
+.blog-single-content a {
+    display: inline;
+}
+
 .section-categoria {
     display: flex;
     flex-direction: row;
